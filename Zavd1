@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int s=0, n, i;
+    cout<<"Введіть n: ";
+    cin>>n;
+        for (i=1;i<=n;i++)
+        {
+           if (i%3==0) 
+           {
+               s=s+i;
+           }
+        }
+    cout<<"\nS = "<<s;
+    return 0;
+}
